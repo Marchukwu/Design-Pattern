@@ -59,7 +59,7 @@ class Observer2 {
 }
 
 const tel = new Telephone();
-tel.AddPhoneNumber(2347064350087);
+tel.AddPhoneNumber(2348101650031);
 
 const observer = new Observer();
 tel.AddObserver(observer);
@@ -67,7 +67,7 @@ tel.AddObserver(observer);
 const observer2 = new Observer2();
 tel.AddObserver(observer2);
 
-tel.DialPhoneNumber(2347064350087);
+tel.DialPhoneNumber(2348101650031);
 
-/** Output: Now dialling +2347064350087
- Output: Dialling Notification +2347064350087 **/
+/** Output: Now dialling +2348101650031
+ Output: Dialling Notification +2348101650031 **/
